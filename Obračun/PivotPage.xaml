@@ -23,7 +23,14 @@
         <Pivot x:Uid="Pivot" Title="MY APPLICATION" x:Name="pivot" CommonNavigationTransitionInfo.IsStaggerElement="True">
             <!--Pivot item one-->
             <PivotItem Header="Boce">
-                
+                <StackPanel>
+                <StackPanel Name="studena_panel">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Studena" FontSize="15" Margin="0,0,10,0"/>
+                            <TextBlock Text="0" FontFamily="15" Name="STD_Prikaz"/>
+                        </StackPanel>
+                </StackPanel>
+                </StackPanel>
             </PivotItem>
 
             <!--Pivot item two-->
